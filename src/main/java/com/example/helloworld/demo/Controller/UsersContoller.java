@@ -14,7 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 // entity
 import com.example.helloworld.demo.Entity.Users;
 import com.example.helloworld.demo.Services.UserServices;
-import java.util.ArrayList;
+import java.util.List;
+import org.bson.types.ObjectId;
 
 // outer router "/Users"
 @RestController
@@ -26,8 +27,8 @@ public class UsersContoller {
 
     // get all users (method : get) (end-point : "/Users/getUsers")
     @GetMapping("/getUsers")
-    public ArrayList<Users> getAll() {
-        return null;
+    public List<Users> getAll() {
+        return services.get();
     }
 
     // create a user (method : post) (end-point : "/Users/create") (body : {"id" : "..", "userName" : "..", "password" : ".."})
@@ -39,13 +40,13 @@ public class UsersContoller {
 
     // get user by id (method : get) (end-point : "Users/getUserById/{id}")
     @GetMapping("/getUserById/{id}")
-    public Users getUserById(@PathVariable String id) {
-        return null;
+    public Users getUserById(@PathVariable ObjectId id) {
+        return services.getUserById(id).orElse(null);
     }
 
     // delete user by id (method : delete) (end-point : "Users/deleteId/{id}")
     @DeleteMapping("/deleteId/{id}")
-    public Users delete(@PathVariable String id) {
-        return null;
+    public void delete(@PathVariable ObjectId id) {
+        services.deleteById(id);
     }
 }

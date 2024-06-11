@@ -4,20 +4,21 @@ package com.example.helloworld.demo.Entity;
 // annotations
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.bson.types.ObjectId;
 
 @Document(collection = "app_users")
 public class Users {
 
     @Id
-    private String id;
+    private ObjectId id;
     private String username;
     private String password;
 
-    public String getId() {
+    public ObjectId getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(ObjectId id) {
         this.id = id;
     }
 
