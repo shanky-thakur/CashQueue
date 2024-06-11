@@ -1,6 +1,14 @@
+// package
 package com.example.helloworld.demo.Entity;
 
+// annotations
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "app_users")
 public class Users {
+
+    @Id
     private String id;
     private String username;
     private String password;
