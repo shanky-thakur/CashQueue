@@ -35,4 +35,14 @@ public class UserServices {
     public void deleteById(ObjectId id) {
         users.deleteById(id);
     }
+
+    public Users update(ObjectId id, Users newUser) {
+        Users old = users.findById(id).orElse(null);
+        if(old != null) {
+            old.setUserName(newUser.getUserName() != null && !newUser.getUserName().equals("") ? newUser.getUserName() : old.getUserName());
+            old.setPassword(newUser.getPassword() != null && !newUser.getPassword().equals("") ? newUser.getPassword() : old.getPassword());
+            users.save(old);
+        }
+        return old;
+    }
 }
