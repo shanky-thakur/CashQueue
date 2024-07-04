@@ -13,7 +13,7 @@ Set of Apis to manage user signup and transaction between any two registered use
 What things you need to install the software and how to install them :
 
 ```
-JDK/JRE - Download the jdk/jre based on your operating system, from [here](https://www.oracle.com/in/java/technologies/downloads/)
+JDK/JRE - Download the jdk/jre based on your operating system.
 Download the JAR file uploaded above and run it on your local machine.
 
 ```
