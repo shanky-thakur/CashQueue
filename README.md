@@ -1,87 +1,45 @@
-# Project Title
+# CashQue - Transaction Management Api
 
-One Paragraph of project description goes here
+Set of Apis to manage user signup and transaction between any two registered users, tracking and managing self finance. Beneficial to track small expenditures which are not recorded more often.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+1. Get your JDK/JRE installed on local machine.
+2. Just download the JAR file attached here and the project is ready to function on your local computer, more over, since the project is still under development phase, any unexpected 
+   behaviour is regreted and we would like if you communicate the same.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install the software and how to install them :
 
 ```
-Give examples
+JDK/JRE - Download the jdk/jre based on your operating system, from https://www.oracle.com/in/java/technologies/downloads/
+Download the JAR file uploaded above and run it on your local machine.
+
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+A step by step series of examples that tell you how to get a development env running can be found at :
+1. Dowload JDk - https://docs.oracle.com/en/java/javase/22/install/installation-jdk-microsoft-windows-platforms.html
+2. Run JAR file on local system - https://docs.oracle.com/javase/tutorial/deployment/jar/run.html
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Tests will be updated soon, currently working on it.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Currently no deployment logs are available for this project.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Spring Boot](https://spring.io/quickstart) - The backend framework used to manage server
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [Java](https://www.java.com/en/) - Used to write logic and apis
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Deepanshu Thakur** - *Backend Developer* - [Profile](https://github.com/shanky-thakur)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
