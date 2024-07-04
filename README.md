@@ -21,8 +21,8 @@ Download the JAR file uploaded above and run it on your local machine.
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running can be found at :
-1. Dowload JDk - https://docs.oracle.com/en/java/javase/22/install/installation-jdk-microsoft-windows-platforms.html
-2. Run JAR file on local system - https://docs.oracle.com/javase/tutorial/deployment/jar/run.html
+1. Dowload JDk - [download and install jdk](https://docs.oracle.com/en/java/javase/22/install/installation-jdk-microsoft-windows-platforms.html)
+2. Run JAR file on local system - [how to run jar](https://docs.oracle.com/javase/tutorial/deployment/jar/run.html)
 
 ## Running the tests
 
@@ -41,5 +41,3 @@ Currently no deployment logs are available for this project.
 ## Authors
 
 * **Deepanshu Thakur** - *Backend Developer* - [Profile](https://github.com/shanky-thakur)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
