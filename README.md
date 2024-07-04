@@ -13,7 +13,7 @@ Set of Apis to manage user signup and transaction between any two registered use
 What things you need to install the software and how to install them :
 
 ```
-JDK/JRE - Download the jdk/jre based on your operating system, from https://www.oracle.com/in/java/technologies/downloads/
+JDK/JRE - Download the jdk/jre based on your operating system, from [here](https://www.oracle.com/in/java/technologies/downloads/)
 Download the JAR file uploaded above and run it on your local machine.
 
 ```
@@ -23,6 +23,10 @@ Download the JAR file uploaded above and run it on your local machine.
 A step by step series of examples that tell you how to get a development env running can be found at :
 1. Dowload JDk - [download and install jdk](https://docs.oracle.com/en/java/javase/22/install/installation-jdk-microsoft-windows-platforms.html)
 2. Run JAR file on local system - [how to run jar](https://docs.oracle.com/javase/tutorial/deployment/jar/run.html)
+
+## Read about Endpoints
+
+To know more about endpoints please read "endpoints.pdf"
 
 ## Running the tests
 
